@@ -1,0 +1,31 @@
+{
+  "name": "grunt-yepnope",
+  "version": "0.1.0",
+  "description": "Integrate yepnope into a grunt task.",
+  "homepage": "http://stash.dev-charter.net/stash/plugins/servlet/readmeparser/display/CHUI/grunt-yepnope",
+  "repository": "ssh://git@stash.dev-charter.net:7999/chui/grunt-yepnope.git",
+  "author": {
+    "name": "Brian Schnitzer",
+    "email": "bschnitzer@kenzan.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt-jscs": "^2.5.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
